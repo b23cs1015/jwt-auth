@@ -1,0 +1,40 @@
+/* src/pages/HomePage.module.css */
+
+.container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.subtitle {
+  margin: 10px 0 30px;
+  color: #666;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #004d99;
+}
