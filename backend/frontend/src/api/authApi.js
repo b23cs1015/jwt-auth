@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-    baseURL: '/api/auth'
+    baseURL: process.env.REACT_APP_API_URL
 })
 
 export const registerUser = (userData) => API.post('/register', userData)
